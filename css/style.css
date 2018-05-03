@@ -1,0 +1,329 @@
+.ok {
+    background: ;
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+
+.first-img {
+    background: url('../img/woman-422706_1920%20copy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+
+}
+
+.first-img h1 {
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+
+.glass1 {
+    background: url('../img/glasses-415258_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.glass2 {
+    background: url('../img/glasses-415257_1920(1).jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.bandeau {
+    background: url('../img/model-2436214_1920%20copy.jpg');
+    background-size: cover;
+    height: auto;
+    color: white;
+    background-position: top;
+}
+
+
+.men {
+    background: url('../img/people-2590560_1920%20copy.jpg');
+    background-size: cover;
+}
+
+.moi {
+    text-align: center;
+
+}
+
+.ouii {
+    background: url('../img/glasses-1333433_1920%20copy.jpg');
+    background-size: cover;
+    height: 200px;
+    /*     margin: 1px 10px 1px 10px;*/
+}
+
+.men1 {
+    background: url('../img/wood-sunglasses-2500488_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.men2 {
+    background: url('../img/glasses-1333433_1920%20copy.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.btn {
+    background: white;
+    border: none;
+    color: black;
+}
+
+/*PAGE-MEN & PAGE-WOMEN*/
+
+h2 {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    text-decoration: underline;
+}
+
+
+
+.men-img {
+    background: url('../img/model-2436214_1920%20copy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    /*    background-attachment: fixed;*/
+    /*    background-position: bottom;*/
+}
+
+.men-img h1 {
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+
+.container-hm {
+    position: relative;
+    width: 90%;
+    padding: 15px 0 15px 0;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-bottom: 1px solid;
+    /*    border-right: 1px solid;*/
+    border-radius: 6px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-hm:hover .image {
+    opacity: 0.3;
+}
+
+.container-hm:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+/*PAGE-WOMEN*/
+
+/*PAGE-ABOUT*/
+
+.about-img {
+    background: url('../img/display-1313669_1920%20copy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.about-img h1 {
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+
+/*PAGE-CONTACT*/
+
+.contact-img {
+    background: url('../img/new-york-540807_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.contact-img h1 {
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+
+/*SLIDE*/
+
+.well {
+    padding: 0;
+    background: white;
+    border: none;
+}
+
+.thumbnail {
+    border: none;
+}
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+
+.carousel {
+    margin-bottom: 0;
+    /*    padding: 0 40px 30px 40px;*/
+}
+
+/* Reposition the controls slightly */
+
+.carousel-control {
+    left: -12px;
+}
+
+.carousel-control.right {
+    right: -12px;
+}
+
+/* Changes the position of the indicators */
+
+.carousel-indicators {
+    right: 15%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+
+.carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.carousel-indicators .active {
+    background: #333333;
+}
+
+/*FOOTER*/
+
+footer {
+    background: ;
+    /*    margin: 15px 0 10px 0;*/
+    color: ;
+    padding: 30px 0 20px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: goldenrod;
+}
+
+footer a:active {
+    color: red;
+}
+
+
+/*Contact sectiom*/
+
+.content-header {
+    font-family: 'Oleo Script', cursive;
+    color: #fcc500;
+    font-size: 45px;
+}
+
+.section-content {
+    text-align: center;
+
+}
+
+#contact {
+
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 670px;
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, white, white);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    margin: 25px 0 25px 0;
+}
+
+.contact-section {
+    padding-top: 40px;
+}
+
+.contact-section .col-md-6 {
+    width: 50%;
+}
+
+.form-line {
+    border-right: 1px solid #B29999;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+}
+
+textarea.form-control {
+    height: 135px;
+    /* margin-top: px;*/
+}
+
+.submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: black;
+
+}
